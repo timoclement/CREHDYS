@@ -1,7 +1,7 @@
 # CREHDYS
 Repository for the hydrological model CREHDYS: fortran codes, model executable, inputs generation, etc.
 
-------------- THE CREHDYS MODEL ----------------------------------------------------------------------------------------------------------------------
+------------- THE CREHDYS MODEL ----------------------------------------------------------------
 
 This is the GitHub repository for the CREHDYS model, the Continuous Runoff and Erosion Hillslope model with DYnamic Surface properties.
 
@@ -18,7 +18,7 @@ The latest version is now CREHDYS v4.0. Compared to the original version, multip
 	Clement & Bielders (in prep.)
 
 
------------- CONTENT OF THIS REPOSITORY --------------------------------------------------------------------------------------------------------------
+------------ CONTENT OF THIS REPOSITORY --------------------------------------------------------
 
 - "CREHDYS_v4.0.exe" - The model's Windows executable file
 
