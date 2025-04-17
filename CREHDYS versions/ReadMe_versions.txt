@@ -3,8 +3,7 @@ In this folder you can find the different versions of the Fortran code for the C
 ------------------------------ CREHDYS V1 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - CREHDYS v1.0 is the original CREHDYS code as left by Eric Laloy on UCLouvain backups (Alfresco and physical hard drive) 
-	- Running/compiling this code on Microsoft Visual Studio (MVS) with the Intel fortran compiler (ifort), using the input example files provided by Laloy, does not work properly and does not reproduce Laloy's original outputs.
-There are convergence issues for the kinematic wave and NaN values in erosion outputs, among other problems.
+	- Running/compiling this code on Microsoft Visual Studio (MVS) with the Intel fortran compiler (ifort), using the input example files provided by Laloy, does not work properly and does not reproduce Laloy's original outputs. There are convergence issues for the kinematic wave and NaN values in erosion outputs, among other problems.
 	- In addition, there are several miscalculations in the code :
 	 	- In the water content (theta) adjustement (daily and within events), the unit of control volume df is mistaken: it is treaed as [mm] while it is actually in [cm]
 		- In "percol" and "drain" functions, there are unit errors: dthr should be 24h in percol (not dthr/3600), and dr is considered in [mm/h] while it's actually in [mm/dthr]. An unexpected "*thets" appears in the travel time calculation
