@@ -1,0 +1,22 @@
+Ittre_2022				Plot name
+124				simdur [days]
+60				dt [s]
+1				nsoil
+0.411	0.609	0.255	20	20				tp [m3pores/m3soil]	fc [m3water/m3pores]	tp [m3water/m3pores]	ksat sub [mm/h]	df [cm]
+9	3	36	0	52				clay [%]	sand	silt	coarse fragments	very fine sand
+5	0.03				RR in channel [mm]	Mannings n in channel
+0.2				soil albedo
+0.25				dx [m]
+1	1				number of intercrops periods	number of maize periods
+0				starting day(s) of intercrop periods(s)
+0	0				destruction date	burial date
+1				starting day(s) of maize period(s)
+0	0				number of wheel tracks in intercrop	number of wheel tracks in maize
+9				initial RR(s) for intercrop period(s)
+9				initial RR(s) for maize period(s)
+75	75				initial Ksat [mm/h] for intercropping and maize periods respectively
+0				dummy indicating if RR and Ksat are varying (=1) or not (=0) during each intercropping period
+0				dummy indicating if RR and Ksat are varying during each maize period
+0.4	0.34				cover extinction coefficient [m-2/m²] in eq LAI=f(cov) for intercrop and maize respectively
+8e-05	0.005				growth rate coefficients for intercrop and maize respectively
+0.0076				coefficient for cover crop cover=f(biom)
