@@ -12,7 +12,7 @@ The model was initially developed by Eric Laloy and Charles Bielders, and used f
 	Laloy et al. (2010) : https://doi.org/10.1016/j.jhydrol.2009.10.025
 	Laloy (2010) : http://hdl.handle.net/2078.1/32572
 
-The latest version is now CREHDYS v4.0. Compared to the original version, multiple minor corrections and adjustments were made by Timothée Clement. It was recently used for hydrological modeling in maize crop under strip-tillage or micro-basin tillage. For more information, pease see:
+The latest version is now CREHDYS v4.0. Compared to the original version, multiple minor corrections and adjustments were made by Timothée Clement. It was recently used for hydrological modeling in maize crop under strip-tillage or micro-basin tillage. For more information, please see:
 	Clement (2024) : http://hdl.handle.net/2078.1/299341
 	Clement et al. (2025, revised manuscript submitted for publication)
 	Clement & Bielders (in prep.)
